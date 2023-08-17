@@ -23,3 +23,27 @@ optional arguments:
 ```
 python '.iSecSSL360-SetPass_POC.py' -f .\url.txt -t 10
 ```
+
+### exp
+
+```
+usage: iSecSSL360-SetPass_EXP.py [-h] [-u URL] [-T TIMEOUT] [-p PROXY]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     Target url(e.g. url.txt)
+  -T TIMEOUT, --timeout TIMEOUT
+                        Request timeout (default 3)
+  -p PROXY, --proxy PROXY
+                        Request Proxy (e.g http://127.0.0.1:8080)
+```
+
+```
+python '.\iSecSSL360-SetPass_EXP.py' -u http://127.0.0.1
+```
+
+![image-20230817165255730](img/image-20230817165255730.png)
+
+一键上传后通过哥斯拉连接
+
+![image-20230817164926640](img/image-20230817164926640.png)
